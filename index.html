@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <script src="https://kit.fontawesome.com/45edf87bb3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
+    <title>Ronit's Personal Website</title>
+
+</head>
+<body>
+    <div id="overlay">
+        <div class="container">
+            <div class="bg circle"></div>
+            <div class="outermost circle"></div>
+            <div class="outer circle"></div>
+            <div class="middle circle"></div>
+            <div class="middle2 circle"></div>
+            <div class="middle3 circle"></div>
+            <div class="inner circle"></div>
+            <div class="innermost3 circle"></div>
+            <div class="innermost2 circle"></div>
+            <div class="innermost circle"></div>
+        </div>
+    </div>
+    <!-- HEADER -->
+   <header>
+       <div class="menu-btn">
+           <div class="btn-line"></div>
+           <div class="btn-line"></div>
+           <div class="btn-line"></div>
+       </div>
+       <!-- MY PHOTO -->
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+                <!-- NAV BAR -->
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="index.html" class="nav-link">
+                    Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                    About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">
+                    Projects </a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">
+                    Blog </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                    Contact Me</a>
+                </li>
+            </ul>
+       </nav>
+   </header>
+
+   <main id="home">
+        <h1 class="lg-heading">
+            Ronit <span class="text-secondary">Singh</span>
+        </h1>
+        <div class = "header-area">
+            <h2>I'm a <span class="animate"></span></h2>
+        </div>
+
+        <div class="icons">
+            <a target="_blank" href="https://www.linkedin.com/in/ronit-singh/" class="mx-2">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a target="_blank" href="https://github.com/ronit-singh" class="mx-2">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100011723242578" class="mx-2">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a target="_blank" href="mailto:ronit.singh@nyu.edu" class="mx-2">
+                <i class="fas fa-at fa-2x"></i>
+            </a>
+        </div>
+   </main>
+
+   <!-- <script src="./three.min.js"></script> -->
+   <script src="dist/js/main.js"> </script>
+   <script src="dist/typed.min.js"></script>
+   <script>
+   var typed = new Typed('.animate', {
+    strings:[
+        "STUDENT.", "PROGRAMMER.", "DESIGNER.", "Cybersecurity enthusiast.", "WRITER."
+    ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+    });
+    </script>
+</body>
+</html>
