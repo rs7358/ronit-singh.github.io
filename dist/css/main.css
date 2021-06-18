@@ -300,6 +300,10 @@ p {
   h1.lg-heading {
     font-size: 40px; 
   } 
+  
+  .boxes div{
+    font-size: 1rem;
+  }
 
 }
 
