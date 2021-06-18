@@ -294,7 +294,7 @@ p {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 30vh; }
   .projects {
     grid-template-columns: 1fr; }
   h1.lg-heading {
