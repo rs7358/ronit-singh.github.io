@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/icons/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/45edf87bb3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <title>Ronit's Other Writings</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <!-- PICTURE -->
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+
+            <!-- NAV BAR -->
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">
+                        Projects </a>
+                </li>
+                <li class="nav-item current">
+                    <a href="blog.html" class="nav-link">
+                    Blog </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Contact Me</a>
+                </li>
+                <li>
+                    <a target="_blank" class="btn-light" href="https://drive.google.com/file/d/1Uqpd_mXYUQtz-NNHmMZgxAQp2sIOx0rc/view?usp=sharing" style="margin-top: 20px !important; padding-left: 20px !important;padding-right: 20px !important;">RESUME</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="projects">
+        <h1 class="lg-heading">
+            Other <span class="text-secondary">Writings</span>
+        </h1>
+
+        <h3>Short Summary on the <span style="color: #20C20E;">Mirai Botnet</span> Attack.</h3>
+
+        <br><br>
+        
+        <p style="text-align: justify; font-weight: 500;">
+            The article <b><span style="color: #20C20E;">“Understanding the Mirai Botnet”</span></b> by USENIX Security Symposium,
+explains and deeply analyzes the Mirai botnet attack on several high-profile companies and
+organizations in late 2016. It was one of the largest DDoS (Distributed Denial of Service) attacks
+of that time and infected nearly 600k devices by scanning and brute forcing login credentials on
+victim devices. IoT devices (Internet of Things) and embedded systems were its main targets due
+to the presence of various security flaws in them. The article goes over the details of its
+propagation mechanism, evolution and its after-impacts.
+<br><br>
+Mirai is the Japanese word for <span style="color: #20C20E;">‘the future’</span>. According to the article, “Mirai’s reach
+extended across borders and legal jurisdictions, and it infected devices with little infrastructure to
+effectively apply security patches. This made defending against it a daunting task.” (USENIX,
+1094). This indicates that the attack gained its momentum primarily due to the lack of basic
+security system in these devices. This is because, as the article mentions, many of these devices
+used default passwords and configurations which were easy to exploit by using dictionary
+attacks. The Mirai botnet took advantage of the same. There is also a mention of BASHLITE,
+which belonged to “a DDoS malware family that infected Linux devices by brute forcing default
+credentials.” (USENIX, 1095). The Mirai botnet belonged to the same family, but had greater
+features and capabilities. The article states that, “In contrast to BASHLITE, Mirai additionally
+employed a fast, stateless scanning module that allowed it to more efficiently identify vulnerable
+devices.” (USENIX, 1095).
+<br><br>
+<b><span style="color: #20C20E;">What suprised me?</span></b>
+<br>
+The fact that most surprised me was that “even an unsophisticated dictionary attack
+could compromise hundreds of thousands of Internet-connected devices.” (USENIX, 1106) as
+was the case with Mirai botnet. This shows how these devices lack even the basic security
+infrastructure. Moreover, dictionary attacks can be performed by any novice hacker or teenager
+with the help of freely available powerful tools nowadays. This is a huge concern in this totally
+technologically dependent world.
+<br><br>
+Also, another statement mentioned in the article that concerned me was, “Researchers
+have found that IoT devices contain vulnerabilities from the firmware level [18, 19] up to the
+application level.” (USENIX, 1108). This indicates that there are security flaws present at each
+step which increases the chances of a successful attack against them and offers many paths or
+ways for the attacker to attack and succeed.
+<br>
+<br>
+<b><span style="color: #20C20E;">Works Referenced</span></b>
+<br>
+Antonakakis, Manos. “Understanding the Mirai Botnet | USENIX.” USENIX, 2017,
+www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis.
+        </p>
+
+             
+    </main>
+    <footer id="main-footer">
+        Ronit Singh &copy; 2021
+        <div class="footer">
+            <a target="_blank" href="https://itsronit.me">CS student</a>, <a target="_blank"
+                href="https://itsronit.me"></a> New York University <a target="_blank"></a>
+    </footer>
+
+
+    <script src="dist/js/main.js"> </script>
+    <script src="dist/typed.min.js"></script>
+    
+</body>
+
+</html>
